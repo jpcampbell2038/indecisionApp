@@ -1,0 +1,8 @@
+//
+cd/users/james/desktop/reactprojects/indecisionapp
+
+//set up live preview type into cmd:
+live-server public
+
+//use babel
+babel src/app.js --out-file=public/scripts/app.js --presents=env,react --watch
